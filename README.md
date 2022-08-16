@@ -1,6 +1,10 @@
 # LiqueANN
 
-ANN model for estimating potential liquefaction of soil.
+ANN model for predictiong soil liquefaction potential.
+
+## What is soil liquefaction ?
+
+The pore water pressure refers to the pressure of the groundwater between the soil grains. Due to the destructive effect of earthquake movements in the earth, the pore water pressure of the soils increases. Liquefaction is the name given to the transition of the soil from the solid state to the liquid state as a result of the increase in pore water pressure in a granular soil in soil mechanics. Due to the increasing water pressure, the contact of the soil particles with each other decreases, with this decrease, the effective stress of the soil decreases and finally a decrease in the bearing capacity occurs.
 
 ![alt text](https://cdn.britannica.com/84/152184-050-0C74FF5D/qualities-soil.jpg)
 
