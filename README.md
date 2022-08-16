@@ -17,16 +17,16 @@ Output:
 
 - manifestation => 0 for "not liquefaction"; 1 for "liquefaction"
 
-## Model Usage
+## Example Model Usage
 
-Import necessary libraries.
+Importing necessary libraries.
 
 ```
 from tensorflow.keras.models import load_model
 import joblib
 ```
 
-Load ANN Model and Min-Max Scaler from saved files.
+Loading ANN Model and Min-Max Scaler from saved files.
 
 ```
 model = load_model('LiqueANN.h5')
@@ -34,7 +34,7 @@ scaler_filename = "LiqueANN_scaler.save"
 scaler = joblib.load(scaler_filename) 
 ```
 
-Enter the values.
+Entering the values.
 
 ```
 qc_ave=10333.0
