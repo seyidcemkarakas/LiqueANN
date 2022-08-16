@@ -2,6 +2,8 @@
 
 ANN model for estimating potential liquefaction of soil.
 
+![alt text](https://cdn.britannica.com/84/152184-050-0C74FF5D/qualities-soil.jpg)
+
 ## Model Structure
 
 Inputs:
