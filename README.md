@@ -63,3 +63,9 @@ Predicting given inputs.
 guess_of_model=np.round(model.predict(inputs)).astype(int)
 Out : array([[1]])
 ```
+
+## Contact
+
+https://www.linkedin.com/in/seyidcem-karaka%C5%9F-534848188/
+
+seyidcemkarakas@gmail.com
