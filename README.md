@@ -1,6 +1,7 @@
 # LiqueANN
 
-ANN model for predictiong soil liquefaction potential.
+ANN model for predicting soil liquefaction potential.
+LiqueANN is constructed with 14612 data(11690 data for training, 2922 data for testing). This model is the most data-trained model in the literature.
 
 ## What is soil liquefaction ?
 
@@ -29,7 +30,7 @@ Output:
 
 - manifestation => 0 for "not liquefaction"; 1 for "liquefaction"
 
-## Example Model Usage
+## Model Usage
 
 ```
 from LiqueANN import LiqueANN
