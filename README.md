@@ -56,6 +56,11 @@ Getting prediction. Output is string. It could be different.
 model.LiqueANN_run(qc_ave,fs_ave,u2_ave,magnitude,pga,gwt)
 Out : "!! GOOD NEWS !! Soil has not liquefaction potential under these circumstances"
 ```
+## Model Performance
+
+| Metric  | Training data | Testing data |
+| ------------- | ------------- |------------- |
+| Accuracy | 0.88  | 0.86 |
 
 ## Contact
 
