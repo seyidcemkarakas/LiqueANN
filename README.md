@@ -50,7 +50,7 @@ pga=0.02
 gwt=1.2
 ```
 
-Getting prediction. Output is string. It can be change.
+Getting prediction. Output is string. It could be different.
 ```
 model.LiqueANN_run(qc_ave,fs_ave,u2_ave,magnitude,pga,gwt)
 Out : "!! GOOD NEWS !! Soil has not liquefaction potential under these circumstances"
