@@ -31,43 +31,29 @@ Output:
 
 ## Example Model Usage
 
-Importing necessary libraries.
-
 ```
-from tensorflow.keras.models import load_model
-import joblib
+from LiqueANN import LiqueANN
 ```
 
-Loading ANN Model and Min-Max Scaler from saved files.
-
+Creating model object.
 ```
-model = load_model('LiqueANN.h5')
-scaler_filename = "LiqueANN_scaler.save"
-scaler = joblib.load(scaler_filename) 
+model=LiqueANN()
 ```
 
-Entering the values.
-
+Entering example inputs.
 ```
 qc_ave=10333.0
 fs_ave=85.0
 u2_ave=54.5
 magnitude=6.0
-pga=0.53
+pga=0.02
 gwt=1.2
 ```
 
-Scaling entered values with scaler.
-
+Getting prediction. Output is string. It can be change.
 ```
-inputs=scaler.transform([[qc_ave,fs_ave,u2_ave,magnitude,pga,gwt]])
-```
-
-Predicting given inputs.
-
-```
-guess_of_model=np.round(model.predict(inputs)).astype(int)
-Out : array([[1]])
+model.LiqueANN_run(qc_ave,fs_ave,u2_ave,magnitude,pga,gwt)
+Out : "!! GOOD NEWS !! Soil has not liquefaction potential under these circumstances"
 ```
 
 ## Contact
