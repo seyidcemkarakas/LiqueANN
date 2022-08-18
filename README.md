@@ -41,7 +41,7 @@ Creating model object.
 model=LiqueANN()
 ```
 
-Entering example inputs. Units of **qc_ave** => **kPa**, **fs_ave** => **kPa**, **u2_ave** => **kPa**, **magnitude** => **Mw**,  **pga** => **g** and **gwt** => **m**.
+Entering example inputs. Units should be => **qc_ave** => **kPa**, **fs_ave** => **kPa**, **u2_ave** => **kPa**, **magnitude** => **Mw**,  **pga** => **g** and **gwt** => **m**.
 ```
 qc_ave=10333.0
 fs_ave=85.0
