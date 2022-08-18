@@ -20,6 +20,6 @@ class LiqueANN():
         inputs=self.scaler.transform([[qc_ave,fs_ave,u2_ave,magnitude,pga,gwt]])
         guess_of_model=np.round(self.model.predict(inputs)).astype(int)
         if guess_of_model == 1:
-            print("!! BAD NEWS !! Soil has liquefaction potential under these circumstances")
+            print("!! BAD NEWS !! Soil will liquefy")
         else:
-            print("!! GOOD NEWS !! Soil has not liquefaction potential under these circumstances")
+            print("!! GOOD NEWS !! Soil will not liquefy")
