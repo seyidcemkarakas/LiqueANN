@@ -54,7 +54,7 @@ gwt=1.2
 Getting prediction. Output is string. It could be different.
 ```
 model.LiqueANN_run(qc_ave,fs_ave,u2_ave,magnitude,pga,gwt)
-Out : "!! GOOD NEWS !! Soil will liquefy"
+Out : "!! GOOD NEWS !! Soil will not liquefy"
 ```
 ## Model Performance
 
