@@ -32,17 +32,17 @@ Output:
 
 ## Model Usage
 
-```
+```python
 from LiqueANN import LiqueANN
 ```
 
 Creating model object.
-```
+```python
 model=LiqueANN()
 ```
 
 Entering example inputs. Units should be => **qc_ave** => **kPa**, **fs_ave** => **kPa**, **u2_ave** => **kPa**, **magnitude** => **Mw**,  **pga** => **g** and **gwt** => **m**.
-```
+```python
 qc_ave=10333.0
 fs_ave=85.0
 u2_ave=54.5
@@ -52,7 +52,7 @@ gwt=1.2
 ```
 
 Getting prediction. Output is string. It could be different.
-```
+```python
 model.LiqueANN_run(qc_ave,fs_ave,u2_ave,magnitude,pga,gwt)
 Out : "!! GOOD NEWS !! Soil will not liquefy"
 ```
