@@ -15,17 +15,18 @@ Inputs:
 
 ![alt text](https://ars.els-cdn.com/content/image/1-s2.0-S0013795216301855-gr1.jpg)
 
-- **qc_ave** => Average cone tip resistance (kPa)
-
-In the CPT test, the cone is dipped into the ground at a speed of 2 cm/s. As a result of the test, kPa value is recorded at every point where measurement is taken. The average of all these values gives the **qc_ave** value.
-If there is only the Qc,end value in the available data, half can be taken.
-
-- **fs_ave** => Average sleeve friction resistance (kPa)
-- **u2_ave** => Average pore water pressure (kPa)
-- **magnitude** => Earthquake moment magnitude (Mw)
-- **pga** => Event-specific conditional median peak ground acceleration (g)
-- **gwt** => Groundwater table depth (m)
  
+| Variable  | Explaination |
+| ------------- | ------------- |
+| qc_ave | Average cone tip resistance (kPa) In the CPT test, the cone is dipped into the ground at a speed of 2 cm/s. As a result of the test, kPa value is recorded at every point where measurement is taken. The average of all these values gives the **qc_ave** value. If there is only the Qc,end value in the available data, half can be taken.  |
+| fs_ave | Average sleeve friction resistance (kPa)  |
+| u2_ave | Average pore water pressure (kPa)  |
+| magnitude | Earthquake moment magnitude (Mw)  |
+| pga | Event-specific conditional median peak ground acceleration (g)  |
+| gwt | Groundwater table depth (m)  | 
+
+
+
 Output:
 
 - manifestation => 0 for "not liquefaction"; 1 for "liquefaction"
@@ -41,7 +42,19 @@ Creating model object.
 model=LiqueANN()
 ```
 
-Entering example inputs. Units should be => **qc_ave** => **kPa**, **fs_ave** => **kPa**, **u2_ave** => **kPa**, **magnitude** => **Mw**,  **pga** => **g** and **gwt** => **m**.
+Entering example inputs. Units should be :
+
+| Variable  | Unit |
+| ------------- | ------------- |
+| qc_ave | kPa  |
+| fs_ave | kPa  |
+| u2_ave | kPa  |
+| magnitude | Mw  |
+| pga | g  |
+| gwt | m  |
+
+
+
 ```python
 qc_ave=10333.0
 fs_ave=85.0
