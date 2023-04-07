@@ -75,6 +75,21 @@ Out : "!! GOOD NEWS !! Soil will not liquefy"
 | ------------- | ------------- |------------- |
 | Accuracy | 0.88  | 0.86 |
 
+### Training Data
+
+| -  | Not liquefaction  | Liquefaction  |
+| ------------- | ------------- |------------- |
+| Recall | 0.88  | 0.82 |
+| Precision | 0.88  | 0.82 |
+
+### Testing Data
+
+| -  | Not liquefaction  | Liquefaction  |
+| ------------- | ------------- |------------- |
+| Recall | 0.90  | 0.85 |
+| Precision | 0.90  | 0.84 |
+
+
 ## Contact
 
 https://www.linkedin.com/in/seyidcem-karaka%C5%9F-534848188/
