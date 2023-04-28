@@ -11,7 +11,7 @@ The pore water pressure refers to the pressure of the groundwater between the so
 
 ## Model Structure
 
-<img width="943" alt="Screen Shot 2023-04-28 at 11 56 20" src="https://user-images.githubusercontent.com/66181520/235103953-c13dd101-0da9-4bcf-9b8a-fda8129b5d43.png">
+<img width="788" alt="Screen Shot 2023-04-28 at 12 05 58" src="https://user-images.githubusercontent.com/66181520/235105933-dfbd9ae9-8ea9-440e-820a-eb88cadc17e2.png">
 
 LiqueANN is an Artificial Neural Network (ANN) model designed using the Keras framework to predict the soil liquefaction potential. It consists of multiple layers of densely connected neurons. The model architecture consists of seven hidden layers with varying numbers of neurons and an output layer.
 
